@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import axios from 'axios';
 
-const url = 'https://icanhazdadjoke.com/';
+const url = 'https://us-west-2.aws.data.mongodb-api.com/app/data-kwraj/endpoint/data/v1/action/find';
 // Accept : 'application/json'
 
 const Headers = () => {
@@ -12,6 +12,8 @@ const Headers = () => {
       const { data } = await axios(url, {
         headers: {
           Accept: 'application/json',
+          api_key: 'VuRdl2H93rdLPGTS9bcWcfWm4f3Y6nf7tyv2pUsf4bG9cm1eFq0zTg1R4po3WnXd',
+            Access
         },
       });
       setJoke(data.joke);

@@ -40,7 +40,7 @@ const PostRequest = () => {
           />
         </div>
         <button type='submit' className='btn btn-block'>
-          login
+          register
         </button>
       </form>
     </section>
